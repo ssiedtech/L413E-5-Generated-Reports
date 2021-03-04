@@ -2,57 +2,88 @@ export const quiz = {
   quizTitle: 'Check on Learning',
   questions: [
     {
-      question:
-        'The purpose of financial statements is to hold Government agencies accountable for their financial activities.',
+      question: 'What is the purpose of the G/L Account Balances Report?',
       questionType: 'text',
-      answers: ['True', 'False'],
-      correctAnswer: '1',
+      answers: [
+        'To identify which G/L accounts do not match their expected balance',
+        'Look for accounts with an abnormal balance',
+        'Ensure an abnormal balance is the result of valid transactions',
+        'View the balance of a specific G/L account or range of G/L accounts',
+      ],
+      correctAnswer: '4',
       answerSelectionType: 'single',
     },
-
-    // ** Uncomment questions below to put them back in **
-
-    // {
-    //   question:
-    //     "What benefits does GFEBS bring to the Army's reporting practices?",
-    //   answers: [
-    //     'Real-time data',
-    //     'On Demand Reports',
-    //     'Customizable reports',
-    //     'All of the above',
-    //   ],
-    //   questionType: 'text',
-    //   correctAnswer: '4',
-    // },
-    // {
-    //   question:
-    //     'With ___________, financial managers can view up-to-date, accurate financial information about the Army at any point in time.',
-    //   answers: [
-    //     'Trial Balance',
-    //     'Customization',
-    //     'Real-time data',
-    //     'All of the above',
-    //   ],
-    //   correctAnswer: '3',
-    //   questionType: 'text',
-    // },
-    // {
-    //   question: "GFEBS produces the Army's financial statements.",
-    //   answers: ['True', 'False'],
-    //   correctAnswer: '2',
-    //   questionType: 'text',
-    // },
-    // {
-    //   question:
-    //     "What data does GFEBS send to DDRS so that DDRS can produce the Army's financial statements?",
-    //   answers: [
-    //     'Real-time data',
-    //     'Customizable reports',
-    //     'Trial Balance',
-    //     'All of the above',
-    //   ],
-    //   correctAnswer: '3',
-    //   questionType: 'text',
-    // },
+    {
+      question:
+        'During which process do you typically use the Abnormal Balance Report?',
+      answers: [
+        'During the Cash Balancing and Period-End Close processes',
+        'During the Trial Close process',
+        'During the Cash Balancing and Year-End Close processes',
+        'During the Period-End Close and Year-End Close processes',
+      ],
+      questionType: 'text',
+      correctAnswer: '4',
+    },
+    {
+      question:
+        'A ____________ is a part of a financial document containing accounting information on a single item.',
+      answers: ['Credit item', 'Line item', 'Single addendum', 'Single spec'],
+      correctAnswer: '2',
+      questionType: 'text',
+    },
+    {
+      question: 'During which process does FI primarily run line item reports?',
+      answers: [
+        'Report Balancing',
+        'Line Item Balancing',
+        'Cash Balancing',
+        'Account Balancing',
+      ],
+      correctAnswer: '3',
+      questionType: 'text',
+    },
+    {
+      question: 'Who is responsible for running the TROR?',
+      answers: [
+        'The Financial Reviewer',
+        'The Cash Balancing Processor',
+        'Federal and state organizations',
+        'OMB',
+      ],
+      correctAnswer: '1',
+      questionType: 'text',
+    },
+    {
+      question:
+        'The TROR is an optional report provided by corporate entities to the U.S. Treasury.',
+      answers: ['True', 'False'],
+      correctAnswer: '2',
+      questionType: 'text',
+    },
+    {
+      question:
+        'A _______________ lists all G/L accounts in an organization’s Operating Chart of Accounts and the respective balances as of a specific closing date.',
+      answers: [
+        'Period-End Close',
+        'Balance Sheet',
+        'Trial Balance',
+        'Year-End Close',
+      ],
+      correctAnswer: '3',
+      questionType: 'text',
+    },
+    {
+      question:
+        'The Trial Balance is run as part of which two processes in GFEBS?',
+      answers: [
+        'The Period-End and Year-End Close processes',
+        'The Period-End and Year-End Open processes',
+        'The Period-Start and Year-Start Close processes',
+        'The Period-Start and Year-Start Open processes',
+      ],
+      correctAnswer: '1',
+      questionType: 'text',
+    },
   ],
 };

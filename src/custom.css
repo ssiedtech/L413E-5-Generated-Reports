@@ -154,7 +154,27 @@ button.close {
 }
 
 .p-1[style] {
-  padding: 0.50rem !important;
+  padding: 0.5rem !important;
+}
+
+.gl-account-balances {
+  height: 335px !important;
+}
+
+.abnormal-balance-report {
+  height: 300px !important;
+}
+
+.federal-transaction-register {
+  height: 340px !important;
+}
+
+.line-item {
+  height: 290px !important;
+}
+
+.trial-bal {
+  height: 212px !important;
 }
 
 /*!
